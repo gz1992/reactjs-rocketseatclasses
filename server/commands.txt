@@ -1,0 +1,19 @@
+1- Criando servidor NODEJS
+(na mesma pasta que se encontra o web, projeto do proffy, criar a pasta server)
+mkdir server
+cd server
+yarn init -y
+code .
+
+
+yarn add typescript -D
+yarn tsc --init
+yarn ts-node-dev -D
+    colocando pra atualizar o servidor com cada mudança
+yarn start
+yarn add express
+
+yarn add knex sqlite3
+
+yarn knex:migrate
+    criou no package.json essa possibilidade, como se fosse um novo comando
